@@ -1,0 +1,325 @@
+
+body#order-opc div#left_column{
+	margin-top:0
+}
+
+/*shopping cart page*/
+
+
+
+#valid.nadpis {
+margin-bottom:20px !important;
+}
+
+h1.closed {
+background-color:#cccccc;
+}
+.nadpis p {
+display:block;
+
+
+font-size:11px;
+position:absolute;
+top:10px;right:10px;
+width:300px;
+margin-bottom:0px !important;
+
+}
+
+#emptyCartWarning {
+display:none;
+}
+
+#right_column {
+padding-top:45px;
+}
+
+#cart_block {
+display:none;
+}
+.nadpis span#summary_products_quantity
+{
+position:absolute;
+right:0px;
+top:23px;
+
+}
+.nadpis span.big {
+font-size:20px;
+color:#ffffff;
+position:absolute;
+right:0px;
+top:-10px;
+border-bottom:solid 1px #ffffff;
+}
+
+#shopping_cart_slide {
+
+
+}
+
+
+
+#voucher {
+
+padding:0px;
+margin:5px 0px;
+}
+
+#voucher h4 {
+font-weight:normal;
+float:left;
+padding-right:10px;
+margin-bottom:10px;
+}
+
+#voucher fieldset,#voucher p {
+margin-bottom:0px;
+}
+
+#voucher input.voucher_code {
+padding:5px;
+width:200px;
+float:left;
+}
+
+#cart_summary td {
+vertical-align:middle;
+}
+
+tfoot td {
+text-align:right;
+}
+
+td.cart_total {
+text-align:right;
+}
+
+td.cart_description h5 {
+margin-bottom:0px;
+}
+td.cart_description a {
+font-size: 12px;
+font-weight:normal;
+
+color:#666061;
+
+}
+
+#cart_summary tr.alternative td {
+background-color:#f8f8f8;
+}
+
+#order-opc .opc_status {
+	border: 1px solid #d0d3d8;
+	background: #D0D1D5 url('../img/form_bg.jpg') repeat-x top left;
+	font-size: 12px;
+}
+div#opc_account_choice {
+	width:100%
+}
+div#opc_invoice_address {
+	width:100%;
+	margin-top:20px;
+}
+span#invoice_address b {
+	color:black;
+	text-transform:uppercase;
+	font-weight:normal
+}
+.hide {
+visibility:hidden;
+}
+.opc_float {
+	float:right;
+	width: 55%;
+}
+.opc_float_right {
+	width:30%;
+	float:left
+}
+.opc_float li {
+	text-transform:uppercase;
+	font-size:10px
+}
+
+.opc_float_status {
+	float: left;
+	width: 45%;
+	padding: 10px;
+}
+
+#order-opc #login_form {
+	width: 100%;
+	clear: none;
+} 
+
+#order-opc #login_form p{
+	padding-left:0
+} 
+
+#order-opc #login_form label  {
+	
+}
+#order-opc #login_form input.text, div#opc_account_form input.text, div#opc_account_form textarea {
+	margin:0;
+	background:#f8f8f8;
+	border:1px solid #EEEEEE;
+	padding:4px;
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold
+}
+
+div#opc_account_form input.text:focus {
+
+	background:#ffffff;
+	
+}
+
+
+
+#opc_new_account label {
+	width:100px;
+	display:block;
+	float:left;
+	}
+	
+	
+div#opc_account_form select {
+	background:#F6F6F6;
+	border:1px solid #EEEEEE;
+	padding:4px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold
+}
+#order-opc p#extra_labels {
+	
+}
+#order-opc p#extra_labels span {
+	width:80%;
+	text-align:left;
+	padding-bottom:3px;
+	font-style:italic;
+	font-weight:normal
+}
+form#new_account_form fieldset div {
+    float: left;
+	margin-right:5px;
+}
+#order-opc #login_form p.submit_login {
+	margin-right: 0;
+	text-align: left;
+	padding-left: 27.4%!important
+}
+#order-opc form#new_account_form fieldset {margin:0; padding:0; width:70%}
+#order-opc #login_form input.submit_create {background:#636363; border:none; padding:3px; font-size:11px; color:white; font-weight:normal; text-transform:uppercase; margin:0.3em 0 0.3em 0; cursor:pointer}
+div.opc_float input.submit_login {background:#231F20; border:none; padding:4px; font-size:11px; color:white; font-weight:bold; text-transform:uppercase; margin-top:0.2em; cursor:pointer}
+#order-opc form#new_account_form input#submitAccount {background:#636363; border:none; padding:4px; font-size:11px; color:white; font-weight:bold; text-transform:uppercase; cursor:pointer; margin-left:12em}
+div.opc_float h4, div.opc_float_right h4, div.opc_float p, form#new_account_form p {padding-left:0px;}
+div.opc_float h4, .opc_float_right h4 { text-transform:uppercase; color:black}
+
+#order-opc #login_form a.creat_account { color:#999; font-weight:bold; background:url(../img/bullet.gif) left no-repeat; padding-left:0.8em }
+#order-opc #login_form a.lost_password { color:#999;}
+#order-opc input#SubmitLogin { margin: 0 }
+#order-opc #login_form p.submit {
+	margin-right: 0;
+	text-align: left;
+	padding-left: 17%!important;
+}
+#order-opc p.lost_password { padding-left: 4em }
+#order-opc p.submit span { padding-right: 0.5em }
+
+#order-opc textarea#message { width: 42em; margin-top:0.5em }
+
+#order-opc sup { color: red; }
+
+#order-opc div.opc-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url('../img/ajax-loader.gif') transparent no-repeat center center;
+	opacity: 0.7;
+	filter : alpha(opacity=70); /* IE < 8 */
+	-moz-opacity : 0.7; 
+    -ms-filter: "alpha(opacity=70)"; /* IE 8 */
+	z-index: 99;
+}
+p.required span.form_info {padding:0.2em 0 0.3em 12em; float:left}
+p.checkbox label {float:none;width:auto !important; display:block; }
+p.checkbox input {float:left;margin-right:10px;} 
+#order-opc div.opc-main-block, div#opc_payment_methods-content { float:right; clear:both; width:600px;}
+#order-opc div.opc-main-block h1, div#opc_payment_methods-content h1 { margin-bottom:0}
+#order-opc div.opc-main-block p div, div#opc_payment_methods-content p div{ margin-right:2px}
+div#adresses_infos {margin-bottom:1em}
+div#adresses_infos h4 { font-size:11px; text-transform:uppercase; color:black; padding:0; margin:0}
+div#adresses_infos p {text-transform:uppercase; color:#999; font-size:10px; margin:0}
+	
+#payment_modules a {
+display:block;
+position:relative;
+background-color:#ffffff;
+color:#666061;
+height:80px;
+padding:20px;
+margin:0px;
+
+}
+#payment_modules p {
+margin:0px;
+padding:0px;
+}
+#payment_modules .table-5 td {
+
+
+}
+
+#payment_modules a:hover {
+background-color:#f8f8f8;
+}	
+
+#payment_modules td {
+vertical-align:middle;
+}
+#payment_modules span.popis {
+display:block;
+position:absolute;
+top:20px;
+left:130px;
+width:250px;
+padding:0px;
+}
+h3 {
+font-weight:normal;
+}
+#credentials_message_ok {
+display:none;
+}
+	
+#validation {float:right;width:191px; height:45px; position:relative;text-align:center;background-color:#658799;color:#ffffff !important;}
+#validation:hover {
+background-color:#E41937;
+}
+
+#validation:hover {
+background-color:#E41937;
+}
+#validation span {
+display:block;
+padding-top:5px;
+}
+#validation input.validation {border:none; float:left; color:#ffffff; width:191px; height:45px; text-align:center; font-weight:bold; text-transform:uppercase; padding:0em 0 0 0; cursor:pointer; font-size:11px;position:absolute;top:0px;left:0px;opacity:0}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#validation input.validation {padding:0 0 0 20px; margin-top:3px}
+}
+input.exclusive, input.validation, a.validation, span.validation { background:#EF5057; padding:0px;  font-size:12px; text-transform:uppercase}	
+
+.error_req input {
+border:solid 2px #E41937 !important;
+}
+
+.error_req label {
+color:#E41937; font-weight:bold;
+}

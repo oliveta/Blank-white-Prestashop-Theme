@@ -1,0 +1,8 @@
+/* Block newsletter */
+div.newsletter {background:#F5F5F5; float:left; padding:14px 18px 20px;}
+div.newsletter input { margin-top:0.5em}
+.newsletter select { display:none}
+.newsletter table {float:left;}
+.newsletter td {padding:0; margin:0; height:36.5px;}
+.newsletter .input_buttonnewsletter{ border:1px solid #E3E3E3; overflow:hidden; padding:0; color:#B2B0B3; padding:2px 3px 2px 7px; width:92%; height:19px; background:white}
+.newsletter .buttonnewsletter{background:#636363; padding:0.1em 0.3em 0.1em 0.3em;  border:none; font-size:11px;  color:white; cursor:pointer; text-transform:uppercase}

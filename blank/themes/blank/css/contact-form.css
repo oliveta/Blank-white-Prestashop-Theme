@@ -1,0 +1,17 @@
+/* contact-form.tpl */
+.contact-form  {color:black; font-weight:bold; font-size:12px; padding:5px; border:1px solid #EEE; border-left:4px solid #EEE;}
+ul#contact_head {margin-bottom:1em;text-transform:uppercase}
+ul#contact_head h3 {background:none; padding:0; margin:0; color:#333; font-size:11px; font-weight: normal}
+ul#contact_head p {padding:0; margin:0; color:#999; font-size:11px}
+.contact-form p.desc_contact {color:#999; font-size:11px; padding:0; margin:0;}
+#contact {width:640px; float:left; padding-top:2em}
+#contact p {padding-left:0}
+#contact p div {float:left}
+p.dash_ct {color:black}
+#contact li {list-style:none; color:#f6a720; padding-left:0em}
+#contact label {color:black; text-align:left; width:100%}
+#contact span {color:#999; text-transform:none; font-weight:normal}
+#contact p.desc_contact {padding:0 0 0.6em 0; color:black}
+#contact input {width:250px; border:1px solid #EEE; margin-bottom:0.7em; color:#999;font-size:11px; padding:4px}
+#contact textarea {width:250px; border:1px solid #EEE; margin-bottom:0.7em; color:#999; font-size:11px; padding:4px}
+#contact input#submitMessage {border:none; background:#636363; margin:0; padding:3px; width:auto; cursor:pointer; height:auto; text-transform:uppercase; font-size:11px; color:white; font-weight:normal}

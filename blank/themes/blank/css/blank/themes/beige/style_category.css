@@ -1,0 +1,117 @@
+#document {
+	background: #ffffff url(images/bg-head-big.png) repeat-x;
+	
+	
+}
+
+/* Slider */
+.homepad {
+    padding-top: 50px;
+}
+
+#slide {
+
+    height: 350px;
+   overflow:hidden;
+   
+     
+   
+}
+
+#cycle {
+     
+    height: 420px;
+    background: url(images/shadow.png) bottom right no-repeat;
+    
+    float:left;
+}
+
+.slide {
+    margin-top: 40px;
+    margin-bottom: 30px;
+   
+   
+}
+
+.list_product {
+position:relative;
+top:-70px;
+}
+
+.slide-content {
+    float: left;
+   margin-top:30px;
+   height:300px;
+    margin-right: 20px;
+    font-size:20px;
+    color:#999;
+   
+    
+}
+
+.slide-content h2 {
+color:#ffffff;
+   text-transform:uppercase;
+ 
+    
+    font-weight: normal;
+    margin-top: 10px;
+    text-shadow: 0px 1px 0px #000;
+}
+
+.slide-content p {
+    color: #999;
+    text-shadow: 0px 1px 0px #000;
+}
+
+.slide-banner {
+   float:left;
+  margin-top:30px;
+     background: url(images/Texture0203.jpeg) bottom right repeat;
+    width: 700px;
+    height: 330px;
+    overflow:hidden;
+}
+
+.slideinner {
+
+width:680px;
+ height:310px;
+ margin:10px;
+ overflow:hidden;
+ background-color:#ffffff;
+ text-align:center;
+ vertical-align:middle;
+ 
+}
+
+.sl-more {
+    padding: 5px 10px;
+    background: #d2d2d3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #555;
+}
+
+#subhead {
+    background: url(images/slidebg.png) repeat-x;
+    border-top: 1px solid #000;
+}
+
+.insub {
+    width: 1000px;
+    margin: 10px auto;
+    font-size: 42px;
+    color: #eee;
+    font-family: SixCapsRegular;
+    text-shadow: 0px 1px 0px #000;
+}
+
+.insub a:link, .insub a:visited {
+    color: #eee;
+}
+
+.insub h1 {
+    font-size: 42px;
+}

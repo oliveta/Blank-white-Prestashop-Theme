@@ -1,0 +1,435 @@
+/*general layout */
+html, body, #document {height: 100%;}
+body > #document {height: auto; min-height: 100%;margin-top:0px;overflow:hidden}
+
+/*general text */
+a {text-decoration: none}
+a.bookMan {
+	font-family: "Bookman Old Style", Georgia;
+	font-weight: bold;
+	font-style: italic;
+}
+.size-1 {
+font-size:11px;
+}
+
+.size0 {
+font-size:12px;
+}
+
+.size1 {
+font-size:14px;
+}
+
+.size2 {
+font-size:16px;
+}
+
+.size3 {
+font-size:24px;
+}
+
+.size5 {
+font-size:19px;
+}
+
+.size4 {
+font-size:48px;
+}
+
+.upper {
+text-transform:uppercase;
+}
+
+/* Header ******/
+
+
+#logo {
+position:relative;
+margin-top:0px;
+
+}
+
+#logo h1 {
+margin:0px;
+
+}
+.c_column {
+width:150px;
+float:left;
+margin:0px;
+padding:0px;
+
+}
+#header {
+position:relative;
+overflow:hidden;
+
+}
+.nadpis{
+
+font-size:20px;
+font-weight:normal;
+padding:10px;
+clear:left;
+margin-bottom:1px !important;
+cursor:pointer;
+position:relative;
+}
+
+
+
+/* your logo if you have an image
+
+#logo h1 {
+	text-indent: -9999px;
+	background: transparent url(images/logo.jpg) no-repeat;
+}*/
+
+#logo h1 a {
+	display: block;
+	height: 148px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	margin-top:0px;
+	text-transform:uppercase;
+	line-height:80%;
+
+	
+	
+	
+}
+
+#logo h1 a span {
+position:absolute;
+bottom:20px;
+display:block;
+margin-top:0px;
+}
+
+#logo h2 {
+	display: none;
+}
+
+
+
+/****** Home */
+
+#featured-products_block_center {
+
+float:left;
+margin:0px;
+margin-top:0px;
+padding:0px;
+width:864px;
+
+
+}
+
+#right_column {
+float:right;
+
+}
+
+/* Main Menu ******/
+
+#mainMenu {
+	
+	margin-bottom: 0px;
+	height:60px;
+	position:relative;
+	top:2px;
+	
+	z-index:999;
+	
+	
+	
+}
+#mainMenu ul {
+margin:0px;
+position:absolute;
+z-index:999;
+
+}
+
+#mainMenu ul li {
+	list-style: none;
+	float: left;
+	padding:0px;
+	margin:0px;
+
+	
+}
+
+#mainMenu ul li ul {
+
+margin-top:-4px;
+}
+
+
+#mainMenu ul li ul li ul {
+margin-left:100%;
+margin-top:-56px;
+width:100%;
+
+}
+
+#mainMenu ul li ul li ul li a {
+font-size:0.8em;
+
+position:relative;
+left:-1px;
+
+}
+
+
+#mainMenu ul li ul li {
+float:none;
+	
+	
+	
+}
+
+
+
+
+
+
+#mainMenu a {
+
+margin:0px;
+display:block;
+padding: 15px 50px 20px 0;
+
+}
+
+#mainMenu ul li ul li a {
+
+ padding-left:10px;
+
+}
+
+
+
+	
+#footer {	
+height:300px;
+margin-top:20px;	
+	
+}	
+
+
+.blockcategories_footer {
+padding-top:20px;
+}
+
+
+.topmargin {
+padding-top:20px;
+}
+.leftmargin {
+padding-left:20px;
+}
+
+#right_column.order-opc {
+padding-top:20px;
+}
+
+.nadpis span#summary_products_quantity
+{
+position:absolute;
+right:0px;
+top:23px;
+
+}
+.nadpis span.big {
+font-size:20px;
+
+position:absolute;
+right:0px;
+top:-10px;
+
+}
+.nadpis p {
+display:block;
+
+
+font-size:11px;
+position:absolute;
+top:10px;right:10px;
+width:300px;
+margin-bottom:0px !important;
+
+}
+
+
+
+#voucher {
+
+padding:0px;
+margin:5px 0px;
+}
+
+#voucher h4 {
+font-weight:normal;
+float:left;
+padding-right:10px;
+margin-bottom:10px;
+}
+
+#voucher fieldset,#voucher p {
+margin-bottom:0px;
+}
+
+#voucher input.voucher_code {
+padding:5px;
+width:200px;
+float:left;
+}
+
+
+
+td.cart_description h5 {
+margin-bottom:0px;
+}
+td.cart_description a {
+font-size: 12px;
+font-weight:normal;
+
+
+
+}
+
+a.continue {
+display:block;
+float:right;
+padding:10px 20px;
+
+}
+
+.global_steps ul li.step_current {
+width:311px;
+position:relative;
+top:-1px;
+-moz-box-shadow: 5px 5px 2px #ccc;
+-webkit-box-shadow: 5px 5px 2px #ccc;
+box-shadow: 5px 5px 2px #ccc;
+}
+
+
+.global_steps {
+margin:0px;
+padding-bottom:20px;
+}
+
+
+.global_steps ul li{
+list-style-type:none;
+float:left;
+margin:0px;
+padding:0px;
+
+
+}
+
+.global_steps ul p{
+padding:12px 10px;
+margin:0px;
+float:left;
+font-size:16px;
+
+
+}
+
+.global_steps ul {
+margin:0px;
+}
+
+.global_steps ul li b.cufon {
+display:block;
+padding:6px 10px;
+
+float:right;
+
+
+}
+
+
+.table-5 h2 {
+font-weight:normal;
+}
+
+.breadcrumb  {
+
+font-weight:normal;
+
+font-size:11px;
+
+padding:10px 0px;
+
+	
+}
+
+
+
+div.table-5 {
+	
+	padding: 5px 10px;;
+	
+	border: 1px solid #ebebeb;
+	
+	
+}
+table.table-5 {
+width:100%;
+
+	padding: 5px;
+	
+	border: 1px solid #ebebeb;
+}
+
+
+.table-5 td, .table-5 th {
+	padding: 5px 10px;
+	font-weight:normal;
+}
+
+#carrierTable.table-5 td {
+vertical-align:top;
+}
+
+.table-5 thead {
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:normal;
+	text-shadow: 0 1px 0 white;
+
+}
+.table-5 th {
+	text-align: left;
+	border-bottom: 1px solid #fff;
+}
+.table-5 td {
+	font-size: 12px;
+}
+
+.table-5 tfoot td {
+text-align:right;
+}
+
+.warning {
+padding-top:20px;
+}
+
+.author {
+position:relative;
+top:-20px;
+font-style:italic;
+}
+
+.product_desc {
+position:relative;
+z-index:20;
+}
+

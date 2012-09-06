@@ -1,0 +1,165 @@
+/* Special style for block cart*/
+#cart_block {
+color:#ffffff;
+margin-bottom:20px !important;
+
+
+}
+#cart_block .block_content {background:#CCCCCC; padding:6px; border:none}
+#cart_block h4 {background:#658799; font-weight:bold;  margin:0; padding:6px !important }
+#cart_block h4 a {color:white }
+#cart_block h4 span {
+	text-transform: none;
+	font-size: 0.8em;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 10px
+}
+#cart_block h4 span#block_cart_collapse { }
+#cart_block h4 span#block_cart_expand {  }
+#cart_block #cart_block_no_products { margin: 0.5em 0 }
+
+ #cart_block dl dt span.quantity-formated { float: left;width:35px;display:block;margin:0px;padding:0px; margin-right:5px;}
+ #cart_block dl dt span.quantity-formated span.quantity {color:black; font-weight:normal; padding-right:0.2em; }
+#cart_block dl { }
+#cart_block dt { padding-top: 0.4em; }
+#cart_block dl span.quantity-formated { padding-right: 1px;font-size:24px; }
+#cart_block dt, #cart_block dd {
+text-align:left;
+	clear: both;
+	margin-top: 0.2em
+}
+#cart_block .products {
+padding-bottom:16px;
+}
+
+#cart_block dt { 
+
+	text-align: right;
+}
+#cart_block dd { }
+#cart_block dd { 
+	margin-left: 1em; 
+	margin-right: 1em; 
+	font-style: italic 
+}
+#cart_block dl dt a { float:left;
+display:block !important;
+color:#658799;
+font-size:11px;
+width:80px;
+text-align:left;
+line-height:14px;
+font-weight:normal;
+padding-top:10px;
+
+
+ }
+#cart_block  dl dt  a.ajax_cart_block_remove_link {
+	width: 11px;
+	height: 13px;
+	margin-left: 6px;
+	float: right;
+	
+	font-size: 0;
+	display: block;
+	background: transparent url('img/icon/delete.gif') no-repeat left bottom
+}
+#cart_block a.ajax_cart_block_remove_link:hover { text-decoration: none }
+#cart_block p { clear: both }
+#cart_block p span {
+	clear: right;
+	float: left;
+	text-align: right
+}
+#cart_block li { clear: both }
+#cart_block span.price {
+	color:black;
+	float: right;
+	font-weight:bold;
+}
+#cart_block dl span.price {
+	font-weight: normal;
+	color: white;
+	float: none;
+	padding-top:7px;
+	display:block;
+}
+
+
+#cart_block_wrapping_cost, #cart_block_shipping_cost, #cart_block_tax_cost, #cart_block_total { padding-right: 0em }
+
+#cart_block table#vouchers {
+	margin-top: 0.5em;
+	border-top: 1px solid #A6A5AF;
+	height: 3em;
+	padding-top: 0.4em;
+	margin-bottom: 0.5em;
+	clear: both
+}
+ #cart_block p#cart-prices {
+	clear: both;
+	margin-top: 8px;
+	margin-bottom: 2em;
+	display: block;
+	padding-top: 0.4em;
+	border-top: 1px solid #A6A5AF
+}
+#cart_block table#vouchers td {
+	padding: 0;
+	border: 0;
+	height: 1.5em
+}
+#cart_block table#vouchers td.price {
+	color: white;
+	font-size: 1em;
+	font-weight: normal;
+	width: 37%;
+	text-align: right
+}
+#cart_block table#vouchers td.delete {
+	width: 9%;
+	text-align: right
+}
+#cart_block table#vouchers td.delete img { margin: 0 }
+#cart_block p#cart-buttons {
+	height: 50px;
+	margin: 0 -0.3em
+}
+
+#cart_block p#cart-buttons a:hover,#cart_block p#cart-buttons a#button_order_cart:hover  { background:#E41937;color:#ffffff !important;}
+
+#cart_block a#button_order_cart { float: right; margin-right:4px; background:#658799; color:#ffffff; padding:6px !important; display:block;   }
+
+
+#cart_block .cart_block_customizations {
+	margin-left: 6px;
+	list-style-type: square
+}
+#cart_block #cart-price-precisions {
+	margin-top: 0.5em;
+	padding-top: 0.4em;
+	border-top: 1px solid #A6A5AF;
+	font-size: 0.9em;
+	height: 2em
+}
+
+.hidden {
+display:none;
+}
+
+a.cart_block_product_name {
+float:left;
+
+display:block !important;
+color:#658799;
+
+width:80px !important;
+text-align:left;
+line-height:14px;
+}
+
+span.floater {
+clear:right;
+}

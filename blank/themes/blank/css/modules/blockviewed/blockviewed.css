@@ -1,0 +1,5 @@
+/* Block Viewed Products */
+div#viewed-products_block_left { width:198px }
+div#viewed-products_block_left ul { width:198px }
+div#viewed-products_block_left div.block_content ul.products li { height:85px; float:left; margin:0 7px 10px 0  }
+div#viewed-products_block_left div.block_content ul.products li h5 a { font-weight:normal; font-size:11px}

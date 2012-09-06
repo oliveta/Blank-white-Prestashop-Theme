@@ -1,0 +1,98 @@
+#stores-table {
+	border: 1px solid #999;
+	width: 100%;
+	border-collapse: collapse;
+	display: none;
+}
+
+#stores-table tr td {
+	height: 95px;
+}
+
+#stores-table tr th, #stores-table tr td {
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding: 5px;
+}
+
+#stores-table tr td.num {
+	font-size: 16px;
+}
+
+#stores-table tr td.distance, #stores-table tr td.num {
+	text-align: center;
+}
+
+#stores-table tr th {
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+}
+
+div.store-small {
+	border: 1px solid #CCC;
+	padding: 5px;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+#map {
+	width:635px;
+	height: 375px;
+	margin:auto;
+}
+
+#locationSelect {
+	width: 350px;
+	visibility: hidden;
+}
+
+#stores_loader {
+	margin-left: 5px;
+	display: none;
+}
+
+#addressInput {
+	width: 350px;
+	padding:5px;
+	border:3px solid #DFDFDF;
+	color:#999
+}
+
+ul#left_side {
+	float:left;
+	width:224px
+}
+div.search_stores p div, div.search_stores label {
+	float:left;
+}
+div.search_stores label {
+	width:75px;
+	text-align:right;
+	padding-top:0.6em
+}
+div.search_stores em {
+	color:black
+}
+div#store_search_options {
+	float:right;
+	width:613px;
+	height:100px;
+	overflow:hidden;
+	padding:2em 1em 1em 1em;
+	background:url(../img/textured2.png);
+	border-bottom:3px solid #DFDFDF;
+}
+div#store_search_options input#searchLocations {
+    background:#EF5057;
+    color: white;
+    font-size: 11px;
+    padding:3px;
+    text-transform: uppercase;
+	border:none;
+	margin:0 0 2em 7.2em;
+	cursor:pointer
+}
+div#map {
+	float:right
+}

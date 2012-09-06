@@ -1,0 +1,159 @@
+/*homefeatured*/
+
+.block_content {
+clear:both;
+
+}
+
+.ajax_block_product {
+background:#ffffff url(images/Texture0203.jpg) repeat top center; 
+-moz-border-radius: 15px;
+border-radius: 15px;
+padding:15px 0px;
+list-style:none;
+color:#666061;
+font-size:14px;
+position:relative;
+float:left;
+
+margin-bottom:10px;
+}
+.ajax_block_product .cena {
+position:absolute;
+bottom:170px;
+right:10px;
+text-align:right;
+width:200px;
+}
+
+.cena .withoutreduction {
+display:block;
+color:#E41937;
+padding:0px;
+margn:0px;
+position:relative;
+top:6px;
+font:  italic 12px/60% "Bookman Old Style", Georgia !important;
+}
+
+.container_15 .product_grid_6 
+{width: 422px;
+display: inline;
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+
+}
+
+.product_size5 {
+font-size:19px;
+}
+
+.product_size3 {
+font-size:24px;
+}
+
+
+
+.linethrough {
+text-decoration:line-through;
+
+font: bold italic 19px/120% "Bookman Old Style", Georgia !important;
+color:#E41937;
+}
+.cena .price {
+display:block;
+margin:0px;
+padding:0px;
+}
+
+
+.ajax_block_product h5 a {
+font: bold italic 19px/120% "Bookman Old Style", Georgia !important;
+
+}
+
+.ajax_block_product h5 a:hover {
+color:#E41937;
+}
+
+.price_container {
+
+font: bold italic 30px/120% "Bookman Old Style", Georgia;
+color:#E41937;
+
+}
+
+
+
+
+.pouze {
+
+color:#666061;
+font-style:italic;
+margin:0px;
+padding:0px;
+}
+
+.delimiter {
+background: url('images/delimiter.png') no-repeat center center; 
+padding:0px 10px;
+font-size:20px;
+}
+
+
+
+.ajax_block_product:hover {
+
+}
+
+.back {
+background-color:#f8f8f8;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding:5px;
+float:right;
+border-top:solid 1px #cc0000;
+border-bottom:solid 1px #cc0000;
+margin-top:4px;
+}
+
+.ajax_block_product .inner {
+margin:0px 15px;
+height:380px;
+background-color:#ffffff;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:0px;
+position:relative;
+}
+
+.ajax_block_product .innerinner {
+padding:15px;
+padding-bottom:0px;
+
+}
+
+.roundabout {
+padding:0px;
+margin:0px;
+list-style:none;
+/*			box-shadow: 0 4px 32px rgba(0, 0, 0, 0.4) !important;*/
+			cursor: pointer;
+			width:300px;
+			height:250px;
+			overflow:hidden;
+			position:absolute;
+			bottom:0px;
+}
+
+
+.roundabout img {
+width:300px;
+
+
+}
+
+.roundabout .gsWrapper {
+
+}

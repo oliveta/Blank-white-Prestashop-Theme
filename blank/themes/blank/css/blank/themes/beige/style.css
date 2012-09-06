@@ -1,0 +1,396 @@
+
+
+#document {
+	background: #ffffff url(images/bg-head.png) repeat-x;
+	
+	
+}
+
+/* Header */
+
+
+
+#logo h1 a,#logo h1 a:hover {
+color:#ffffff;
+}
+
+/* Home Pages */
+
+#mainMenu {
+	font: bold italic 16px/120% "Bookman Old Style", Georgia;
+	
+	
+}
+#mainMenu ul {
+
+
+}
+
+#mainMenu ul li {
+	
+
+	
+}
+#mainMenu ul li ul  {
+
+border:solid 1px #B0C4DE;
+border-bottom:0px;
+border-right:0px;
+
+
+
+
+}
+
+#mainMenu ul li ul li ul {
+
+border-left:0px;
+
+}
+
+#mainMenu ul li ul li ul li a {
+font-size:0.8em;
+border-left:solid 1px #B0C4DE;
+
+background-color:#f8f8f8;
+}
+
+#mainMenu ul li ul li ul li a:hover {
+background-color:#ffffff;
+background-image:none;
+}
+#mainMenu ul li ul li {
+
+	
+	
+	
+}
+
+
+
+
+#mainMenu ul li ul li a:hover {
+background-color:#f8f8f8;
+background-image:none;
+}
+
+#mainMenu a {
+color:#ffffff;
+background:url('images/backmenu.png') 100% 100% no-repeat;
+}
+
+#mainMenu a:hover {
+
+background:url('images/backmenu.png') 100% 100% no-repeat;
+}
+
+
+
+#mainMenu ul li ul li a {
+background-color:#ffffff;
+border-bottom:solid 1px #B0C4DE;
+ border-right:solid 1px #B0C4DE;
+background-image:none;
+font-size:14px;
+color:#666666;
+}
+
+#mainMenu ul li ul li a.last {
+
+
+}
+
+#right_column h4, #footer h4 {
+font-weight:normal;
+border-bottom:solid 1px #B0C4DE;
+color:#658799;
+margin:0px;
+padding:0px;
+margin-bottom:10px;
+}
+
+#footer h4 {
+
+border-bottom:solid 1px #ffffff;
+}
+
+
+
+#right_column .block li,.blockcategories_footer li {
+list-style-type:none;
+margin:0px;
+padding:0px;
+}
+
+#right_column .block li ul,.blockcategories_footer li ul{
+list-style-type:none;
+padding-left:10px;
+font-size:12px;
+border-top:dotted 1px #B0C4DE;
+}
+
+
+.blockcategories_footer li ul{
+
+border-top:none;
+}
+
+#right_column #categories_block_right li a,.blockcategories_footer li a{
+display:block;
+
+padding:3px 0px;
+}
+#right_column #categories_block_right li a.selected{
+color:#B0C4DE;
+}
+
+
+
+/* Global Checkout process */
+
+.nadpis{
+
+
+background-color:#44719B;
+color:#ffffff;
+
+}
+
+
+
+.nadpis span.big {
+
+color:#ffffff;
+border-bottom:solid 1px #ffffff;
+}
+
+
+td.cart_description a {
+color:#666061;
+}
+
+a.continue {
+background-color:#658799;
+color:#ffffff;
+}
+
+a.continue:hover {
+color:#ffffff;
+background-color:#E41937;
+}
+
+.global_steps ul li.step_current {
+
+border:solid 1px #658799;
+}
+
+.global_steps ul li.step_done p,.global_steps ul li.step_done a,.global_steps ul li.step_done b.cufon {
+color:#658799;
+}
+
+.global_steps ul li.step_current p{
+
+color:#658799;
+}
+
+.global_steps ul li.step_current b.cufon  {
+background-color:#658799;
+}
+
+.global_steps ul li{
+background-color:#E3E1EF;
+border-right:solid 1px #ffffff;
+}
+
+.global_steps ul p{
+color:#ffffff;
+
+}
+
+.global_steps ul {
+margin:0px;
+}
+
+.global_steps ul li b.cufon {
+background-color:#E3E1EF;
+color:#ffffff;
+
+}
+
+
+
+
+
+
+
+/*----------------------to do sort-authentication.css?------*/
+#address label {
+width:100px;
+	display:block;
+	float:left;
+	}
+	
+#address label.name_label {
+float:none;
+width:500px;
+}
+
+#address input.text, textarea  {
+    margin:0;
+	border:1px solid #EEEEEE;
+	padding:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+
+/*----------------------to do sort-payment.css?------*/
+
+#payment_modules p {
+margin:0px;
+padding:0px;
+}
+#payment_modules .table-5 td {
+
+
+}
+
+#payment_modules a:hover {
+background-color:#f8f8f8;
+}	
+
+#payment_modules td {
+vertical-align:middle;
+position:relative;
+}
+#payment_modules span.popis {
+display:block;
+position:absolute;
+top:20px;
+left:130px;
+width:250px;
+padding:0px;
+}
+
+
+
+/* Footer */
+
+#footer {
+background-color: #D8D8BF;
+
+}
+
+#footer_inner {
+}
+
+
+
+/* END > BACKGROUND IMAGE */
+
+/* FONT COLOR */
+
+a  {
+	color: #44719B;
+}
+
+
+ 
+a:hover {
+	color: #003366;
+}
+
+#primary_block form h5 {
+    border-bottom: 1px solid #44719B;
+    
+    }
+#primary_block h1 {
+
+color:#44719B;
+
+}
+
+.cena .withoutreduction {
+
+color:#44719B !important;
+
+}
+
+
+
+
+
+.linethrough {
+
+color:#44719B !important;
+}
+
+.price_container {
+
+color:#44719B !important;
+
+}
+.back {
+
+border-top:solid 1px #003366 !important;
+border-bottom:solid 1px #003366 !important;
+}
+
+
+/* END > FONT COLOR */
+
+
+
+
+
+
+
+
+
+.breadcrumb  {
+
+}
+
+#center_column .breadcrumb {
+/*margin:0px 0px 10px 0px;*/
+}
+.breadcrumb a{
+
+}
+
+.sleva {
+position:absolute;
+bottom:0px;
+right:0px;
+width:150px;
+height:150px;
+background: url(images/discount.png) no-repeat top left; 
+}
+
+.sleva span {
+visibility:hidden;
+}
+
+
+
+.table-5 {
+	background-color: #f5f5f5;
+	
+	
+	
+}
+
+
+
+
+.table-5 thead {
+	
+	color: #658799;
+}
+
+#contact .kontakt {
+
+border-bottom:solid 1px #ffffff !important;
+
+}
+

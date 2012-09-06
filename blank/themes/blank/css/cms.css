@@ -1,0 +1,313 @@
+#admin-action-cms {
+	background-color: #DFFAD3;
+	border: 1px solid #72CB67;
+	color: #374853;
+	margin-bottom: 10px;
+	padding: 4px;
+	
+}
+
+#admin-action-cms input.exclusive { float:right }
+
+
+
+/* Header */
+
+
+
+/* Page */
+
+
+/* Content */
+
+
+.cms_post {
+
+	line-height:1.8em;
+	clear:both;
+	margin-bottom:2em;
+
+	
+}
+
+.odsad_cms {
+padding-top:20px;
+}
+
+
+.hover {
+-webkit-transition-property: background-color, color, border;
+	-webkit-transition-duration: .4s; 	
+	-webkit-transition-timing-function: ease-in-out;
+	-moz-transition-property: background-color, color, border;
+	-moz-transition-duration: .4s; 	
+	-moz-transition-timing-function: ease-in-out;
+	transition-property: background-color, color, border;
+	transition-duration: .4s; 	
+	transition-timing-function: ease-in-out;
+	position:relative;
+	top:-10px;
+	left:-10px;
+	padding:10px;
+-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+.hover:hover {
+background-color:#F5F5F5;
+
+}
+
+
+
+.cms_post h1.title {
+	
+
+
+font: bold italic 24px/120% "Bookman Old Style", Georgia !important;
+letter-spacing: normal;
+
+color: #4d4d4f;
+
+width: 100%;
+
+
+
+	
+}
+
+.cms_post h2 {
+margin-bottom:10px;
+font-size:16px;
+font-weight:normal;
+text-transform:uppercase;
+padding:7px 0px;
+border-top:solid 1px #cccccc;
+border-bottom:solid 1px #cccccc;
+}
+
+.cms_post p {
+margin-bottom:10px;
+}
+
+.cms_post .title a {
+
+font: bold italic 19px/120% "Bookman Old Style", Georgia !important;
+	color:#E41937;
+
+
+	
+}
+
+.clear {
+clear:both;
+}
+
+.cms_post .entry {
+font-size:12px;
+text-align:justify;
+color:#666061;
+}
+
+.cms_post .entry a:visited {
+color:#996600;
+}
+
+.cms_post .entry a:hover {
+color:#E41937;
+}
+.cms_post .entry a {
+text-decoration:none;
+color:#996600;
+font-weight:normal;
+
+}
+
+
+
+
+.cms .excerpt a.permlink {
+background-color:#658799;
+-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:block;
+font-size:15px !important;
+	width:50px;
+	height:30px;
+	float:right;
+	color:#ffffff;
+	position:relative;
+}
+.cms .excerpt a.permlink:hover {
+background-color:#ab3949;
+color:#ffffff;
+}
+
+
+a.permlink  span {
+position:absolute;
+font-size:15px;
+display:block;
+top:4px;
+left:15px;
+}
+.cms_post .entry a:hover {
+color:#BA8391;
+}
+.post_image img {
+
+	margin:0px 20px 10px 0px;
+	border:solid 5px #e8e8e8;
+	float:left;
+	
+}
+
+
+
+ .post_image {
+
+}
+
+.cms_post .entry .post_image_big {
+
+margin:0px 0px 10px 0px;
+float:none !important;
+
+}
+
+.cms_post .entry .post_image_big img {
+float:none !important;
+}
+
+.cms_post .meta {
+	text-align: right;
+	padding-top: 20px;
+	border-bottom: 1px solid #E5E5E5;
+	font-weight: bold;
+	color: #202020;
+}
+
+.cms_post .byline {
+	float: right;
+	margin-top: -30px;
+	font-size: 12px;
+	color: #5E5E5E;
+}
+
+
+
+
+
+.cms_post ul,.cms_post ul li {
+list-style-type:circle;
+list-style-position:outside;
+
+}
+
+.cms_post ol { clear:both;}
+.cms_post  ol { font-weight:normal; font-family:"EB Garamond","Bitstream Charter",Serif;font-size:24px; color:#b6d554; margin-left:30px;margin-bottom:10px; }
+.cms_post  ol li {list-style-type:decimal;list-style-position:outside; }
+.cms_post  ol li p { padding:8px; margin:0em;font-style:normal;font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; border-left: 1px dotted #999; }
+.cms_post  ol li p em {  }
+
+
+.cms_post .excerpt ol {
+clear:none;
+ font-style:normal; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; margin-left:0em;margin-bottom:10px;
+ list-style-position:inside;
+}
+
+.cms_post .excerpt  ol li {list-style-type:decimal;list-style-position:inside;margin-left:10px; }
+
+.cms_post  .excerpt ol li p { padding:8px; margin-left:0px;font-style:normal;font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; border-left: none; }
+
+.cms_post ul {
+margin-left:20px;
+margin-bottom:10px;
+}
+
+
+
+.cms_post h3 {
+
+
+font-weight:normal;
+font-size:15px;
+
+}
+
+.cms_post strong {
+color:#666666;
+}
+
+
+
+
+.cms_post-image {
+float:left;
+padding:0px 10px 5px 0px;
+margin:0px;
+}
+
+.cms_post-image img {
+border:solid 3px #D9170E;
+padding:0px;
+margin:0px 10px;
+}
+
+a.permlink {
+font-weight:bold;
+color:#cc0000;
+}
+/* TABLES */
+
+.cms_post hr
+{
+border-top: 1px dashed #BDE01A;
+     
+      color: #fff;
+      background-color: #fff;
+	  margin-bottom:20px;
+}
+
+.cms_post table {
+	background-color: #f5f5f5;
+	padding: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #ebebeb;
+	width:100%;
+	
+}
+
+
+.cms_post td, .cms_post th {
+	padding: 5px 10px;
+	font-weight:normal;
+}
+
+
+
+.cms_post thead {
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:normal;
+	text-shadow: 0 1px 0 white;
+	color: #658799;
+}
+ .cms_post th {
+	text-align: left;
+	border-bottom: 1px solid #fff;
+}
+.cms_post td {
+	font-size: 12px;
+}
+
+.cms_post tfoot td {
+text-align:right;
+}
+
+

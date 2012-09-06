@@ -1,0 +1,302 @@
+
+/* product.tpl */
+
+
+#primary_block {
+	float:left; 
+	padding:2em 0 2em 0; 
+
+	color:#666061;
+font-size:14px;
+	
+	
+}
+#primary_block h1 {
+font: bold italic 19px/120% "Bookman Old Style", Georgia !important;
+color:#E41937;
+
+}
+#primary_block #pb-right-column {
+	width: 310px;
+	float: left;
+	margin:0em;
+	padding:0em;
+	
+}
+#primary_block #image-block {
+	width: 300px;
+	height:300px;
+}
+#primary_block #image-block img#bigpic { 
+	cursor: pointer; 
+	height: 300px;
+	width: 300px;
+	
+}
+#primary_block ul#usefull_link_block {
+	padding-top:0.8em
+}
+.view_full_size {position:absolute; background:url(../img/zoom.gif); height:12px; width:17px; margin:1em 0 0 0em; /margin:2.5em 0 0 0em; cursor:pointer;}
+#primary_block ul#usefull_link_block li { margin: 0.5em 0 0.5em 1em; float:left}
+#primary_block ul#usefull_link_block li a,
+ #primary_block ul#usefull_link_block span.span_link,
+ #primary_block ul#usefull_link_block span.span_link:hover {
+	text-decoration: none;
+	text-transform:uppercase;
+	color:#76839b;
+	font-size: 0.9em;
+	background:url('../img/bullet_alt.jpg') no-repeat top left;
+	padding-left: 15px;
+	height: 15px
+}
+
+#thumbs_list li {
+
+float:left;
+width:20px;
+
+list-style:none;
+
+}
+#thumbs_list_frame   {
+width:300px !important;
+
+}
+
+
+#primary_block #pb-left-column {
+    
+    height: auto !important;
+    min-height: 400px;
+   float:left;
+   width:490px;
+}
+#primary_block h2 {
+	
+	margin:0;
+	padding:0;
+	font-size:25px;
+	text-transform:none;
+	
+	font-weight:normal;
+	background-image:none
+}
+#primary_block #short_description_block {
+	padding:0.5em 0 0.5em 0;
+	
+}
+a.if_more_details {
+	background: url("../img/black_arrow.gif") no-repeat 0 1px;
+   
+    font-weight: bold;
+    padding:0 0 0 1em;
+    text-align: left;
+	text-transform:none;
+	font-size:11px
+}
+a.if_more_details:hover { background: url("../img/black_arrow.gif") no-repeat 0 1px;}
+
+p#product_reference {
+	margin-top:1em
+}
+p#product_reference label {
+
+}
+p#product_reference span {
+	color:#EF5057;
+
+}
+.product_stuffs {color:black}
+.product_stuffs a {color:#EF5057; }
+.product_stuffs a:hover {color:black; text-decoration:underline}
+
+#primary_block #color_picker {color:#A9A9A9;}
+#primary_block #color_picker ul {padding:5px 0 5px 0}
+#primary_block #color_picker h3 {margin:0; padding: 0; text-transform:uppercase; color:#777; font-size:11px}
+#primary_block #color_picker p {margin:0 0 0.6em 0; padding:0;}
+#primary_block #color_to_pick_list li {display: inline; float: left;margin: 0 0.2em 0.4em 0}
+#primary_block a.color_pick {width:20px; height:20px; float:left; margin: 0 0.5em 0.5em 0; cursor: pointer;}
+#primary_block a.color_pick:hover { border: 1px solid #000 }
+#primary_block a#color_all { cursor: pointer }
+#primary_block #image-block img#bigpic.jqzoom {
+	cursor: crosshair;
+	position: relative
+}
+#primary_block p.buttons_bottom_block {margin-bottom:1em; }
+#primary_block p.buttons_bottom_block a,
+ #primary_block p.buttons_bottom_block input { margin: 0.9em auto 0 auto }
+#primary_block #short_description_content { 
+margin-top:0.5em;
+margin-bottom: 0.5em }
+#primary_block #buy_block {
+	font-size: 1.1em;
+	
+	margin-bottom: 1.5em
+}
+#primary_block form h5 {
+    border-bottom: 1px solid #E41937;
+   
+    font-size: 24px;
+    padding-bottom: 0.3em;
+	margin-bottom:0.5em;
+    text-transform: uppercase;
+}
+#primary_block #buy_block p {
+	color:#999;
+	font-size:11px
+}
+#primary_block #buy_block img.on_sale_img { float: left }
+#primary_block #buy_block span.on_sale {
+	color: #da0f00;
+	font-size:11px
+	text-transform: uppercase;
+	font-weight: bold;
+	float: right
+}
+#primary_block #buy_block span.discount {
+	color: #da0f00;
+	font-weight: bold;
+}
+#primary_block #buy_block #attributes div { float:left;}
+#primary_block p#attributes {float:left; margin:0.5em 0 0.5em 0; padding-top:0.5em}
+#primary_block #attributes p {margin-bottom:0.7em}
+#primary_block p#attributes label{ font-size:11px; text-transform:none}
+#primary_block #buy_block  select{border:1px solid #ccc; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding:0.1em; height:auto; text-align:left; margin-left:3px;}
+#primary_block form#buy_block option {padding: 0 1em 0 0;}
+#primary_block form#buy_block div#global_price { clear:both; width:100%; float:left; margin-bottom:1em; margin-top:1em;position:relative;}
+#primary_block form#buy_block div#global_price p {margin:0;margin-top:10px;}
+
+/*#primary_block #global_price .new_product {background:url('../img/reduced.png') 0 0 no-repeat;width:67px;height:65px;display:block;position:absolute;right:10px;}*/
+
+#primary_block #global_price .new_product {position:absolute;right:10px;}
+#primary_block #global_price .new_product strong  {color:black; font-style:italic;visibility:hidden}
+
+#primary_block form#buy_block #global_price li {float:left}
+#primary_block #buy_block span#availability_label, span#availability_value {
+	float: left;
+	margin-right:0.2em;
+	font-size:11px
+}
+#primary_block #quantity_wanted_p {margin:0.8em 0 0 0; float:left; text-transform:uppercase}
+#primary_block #quantity_wanted_p label { text-align: right; color:#666; margin:0; /margin:-10px 0 0 0; text-transform:uppercase}
+#primary_block input#quantity_wanted {height:auto; color:#325b3a; -moz-border-radius: 3px; -webkit-border-radius: 3px; border:1px solid #ebebeb; background:#f7f4f4; font-size:12px; padding:0.3em 0.5em 0.3em 0.5em; width:40px}
+#primary_block div#add_it {width:100%; float:left; margin:1em 0 1em 0; padding:0.3em 0 0.7em 0;  }
+#primary_block #add_to_cart {float:right;width:191px; height:45px; position:relative;text-align:center;background-color:#658799;color:#ffffff !important;}
+#primary_block #add_to_cart:hover {
+background-color:#E41937;
+}
+#primary_block #add_to_cart span {
+display:block;
+padding-top:5px;
+}
+#primary_block input.add_to_cart {border:none; color:#ffffff; width:191px; height:45px; text-align:center; font-weight:bold; text-transform:uppercase; padding:0em 0 0 0; cursor:pointer; font-size:11px;position:absolute;top:0px;left:0px;opacity:0}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#primary_block input.add_to_cart {padding:0 0 0 20px; margin-top:3px}
+}
+input.exclusive, input.add_to_cart, a.add_to_cart, span.add_to_cart { background:#EF5057; padding:0px;  font-size:12px; text-transform:uppercase}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+input.exclusive {padding:5px 7px 5px 7px}
+}
+
+/* prices */
+p.our_order_price {
+	margin-top:0.5em
+}
+#primary_block #buy_block span.our_price_display {
+    font-size:20px; 
+    color:black; 
+	
+	font-weight:normal;
+	
+}
+#primary_block #buy_block span#old_price  {
+	text-decoration: line-through;
+	font-weight:normal;
+	font-size:16px;
+	
+}
+#primary_block #buy_block p#reduction_percent {
+	color: #da0f00;
+	font-size:11px;
+}
+#primary_block #buy_block span#reduction_percent_display {
+	color: #999;
+	font-size:11px;
+}
+#primary_block #buy_block p.price-ecotax {
+	font-size: 0.75em;
+	text-align: right
+}
+#admin-action {
+    color: #374853; 
+    background-color: #DFFAD3; 
+    margin-bottom:10px; 
+    padding: 4px; 
+    border: 1px solid #72CB67
+}
+#admin-action input.exclusive
+{
+	float: right
+}
+
+.product_accessories_price
+{
+	margin-top: 5px
+}
+
+div#quantityDiscount h6 {color:black; font-size:11px; text-transform:uppercase}
+table.std_quantityDiscount {background:url(../img/sep.gif) top repeat-x; margin-bottom:0.5em}
+table.std_quantityDiscount thead th {color:#EF5057; text-transform:none; font-weight:normal}
+table.std_quantityDiscount thead th b {color:black}
+table.std_quantityDiscount tbody tr td, table.std_quantityDiscount tfoot tr td {border-right:2px solid white; text-align:left}
+p#pQuantityAvailable span {font-size:11px}
+
+/* TABLES */
+
+.rte hr
+{
+border-top: 1px dashed #b6d554;
+     
+      color: #fff;
+      background-color: #fff;
+	  margin-bottom:20px;
+}
+#idTab1  table
+{
+	font-size: 12px;
+	margin: 0px 0px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	border: 1px solid #b6d554 !important;
+	margin-bottom:10px;
+}
+#idTab1  th
+{
+	padding: 12px 17px 12px 17px;
+	font-weight: normal;
+	font-size: 14px;
+	color: #b6d554;
+	background-color:#ffffff;
+	border-color: #b6d554 !important;
+	border-bottom: 1px dashed #b6d554 !important;
+}
+#idTab1  td
+{
+	padding: 7px 17px 7px 17px;
+	color: #669;
+	border:none;
+}
+#idTab1 tbody tr:hover td
+{
+	color: #339;
+	background: #e3e1ef;
+}
+
+.rte  caption {
+font-size:9px;
+font-style:italic;
+text-align:left;
+margin:0em;
+padding:0em;
+}

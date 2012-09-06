@@ -1,0 +1,193 @@
+
+/* authentication.tpl */
+#authentication #create-account_form,
+ #authentication #login_form {
+	width: 49%;
+	height: 25em;
+	clear: none;
+	float: left
+}
+
+ #authentication #login_form h3, #authentication #create-account_form h3 {
+    font-size: 12px;
+    margin-bottom: 1em;
+   
+    text-transform: uppercase;
+    width: 260px;
+}
+
+#authentication #create-account_form h4 {
+	 padding:0;
+	 margin:0;
+	 font-weight:normal;
+	 font-size:11px;
+	 color:#C0C0C0
+}
+
+#authentication #create-account_form p.text,
+ #authentication #login_form p.text {
+	padding:0.6em 0 0 0;
+}
+
+#authentication #create-account_form p.text,
+ #authentication #login_form p.text label {
+    clear: both;
+    display: block;
+    float: none;
+    margin-bottom: 0.3em;
+    text-align: left;
+    width: 100%;
+}
+
+input.account_input {
+    background:#F6F6F6;
+    border: 1px solid #E8E6E6;
+    color:black;
+    padding: 4px;
+    width: 250px;
+}
+#authentication p.submit_login {
+	margin-right: 0;
+	text-align: left;
+	padding-left: 33%!important
+}
+#authentication #login_form input.text, textarea  {
+    background:#F6F6F6;
+    border: 1px solid #E8E6E6;
+    border: medium none;
+    color: black;
+    margin-top: 0.2em;
+    padding: 0.2em;
+    text-transform: uppercase;
+    width: auto;
+}
+#authentication input#SubmitCreate {
+    background: none repeat scroll 0 0 #636363;
+    border: medium none;
+    color: #FFFFFF;
+    margin-top: 0.4em;
+    padding: 0.2em;
+    text-transform: uppercase;
+    width: auto;
+	cursor:pointer
+}
+#authentication #login_form a { color:#999; }
+#authentication #create-account_form { margin-right: 7px }
+#authentication #create-account_form p.text {
+	text-align: left;
+	width:100%
+}
+#authentication #create-account_form p.text label { width: 100px }
+fieldset.account_creation input, select {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border: 1px solid #E8E6E6;
+    color:black;
+    padding: 3px;
+}
+#authentication p.submit {
+	margin-right: 0;
+	text-align: left;
+	padding-left: 46.5%!important
+}
+#authentication p.submit_new_account {
+	margin-right: 0;
+	text-align: left;
+	padding-left: 20.5%!important
+}
+#authentication p.lost_password {}
+#authentication #create-account_form fieldset,
+ #authentication #login_form fieldset { height: 18em }
+#authentication p.submit span { padding-right: 0.5em }
+fieldset.account_creation {
+	float:left;
+	width:400px;
+	margin-right:1em
+}
+fieldset.account_creation h3 {
+    font-size: 12px;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+fieldset.account_creation p {
+	padding:0.6em 0 0 0;
+}
+fieldset.account_creation label {
+	padding:6px;
+}
+fieldset.account_creation input.text, textarea {
+	margin:0;
+	border:1px solid #EEEEEE;
+	padding:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+fieldset.account_creation p#extra_labels {
+	padding-bottom:3px;
+	padding-left:33%
+}
+fieldset.account_creation p#extra_labels span {
+	width:80%;
+	text-align:left;
+	padding-bottom:3px;
+	font-style:italic;
+	font-weight:normal
+}
+#authentication fieldset div {
+    float: left;
+	margin-right:5px;
+}
+#create-account_form label, #authentication #login_form label {
+	float: none;
+	clear: both;
+	display: block;
+	text-align: left;
+	width: 100%;
+	margin-bottom: 0.3em
+}
+
+p.submit_news_account {margin-left:12.2em}
+input#submitAccount {background:#636363; border:none; padding:4px; font-size:11px; color:white; font-weight:normal; text-transform:uppercase; cursor:pointer}
+form#account-creation_form input.text, 
+form#account-creation_form #id_country, 
+ form#account-creation_form #id_state, 
+  #authentication textarea { 	width:230px
+}
+p.required span.form_info {padding:1em 0 0 12em;}
+
+#order-opc #login_form input.text, div#opc_account_form input.text, div#opc_account_form textarea {
+	margin:0;
+	background:#f8f8f8;
+	border:1px solid #EEEEEE;
+	padding:4px;
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold
+}
+
+div#opc_account_form input.text:focus {
+
+	background:#ffffff;
+	
+}
+
+
+
+#opc_new_account label {
+	width:100px;
+	display:block;
+	float:left;
+	}
+	
+	#opc_account_form h3 {
+	font-weight:normal;
+	padding-top:20px;
+	}
+	
+
+div#opc_account_form select {
+	background:#F6F6F6;
+	border:1px solid #EEEEEE;
+	padding:4px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold
+}

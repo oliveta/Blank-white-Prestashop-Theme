@@ -1,0 +1,200 @@
+#banners .green {
+background:#ffffff url('img/waves.gif') 0 0 repeat;
+
+}
+
+#banners .yellow {
+background:#ffffff url('img/waves_yellow.gif') 0 0 repeat;
+
+
+
+}
+#banners .light-tile {
+background:#ffffff url('img/light-tile.gif') 0 0 repeat;
+
+
+
+}
+
+#banners .dark-tile {
+background:#ffffff url('img/dark-tile.gif') 0 0 repeat;
+
+
+
+}
+
+#banners .cabin {
+background:#ffffff url('img/cabin.gif') 0 0 repeat;
+
+
+
+}
+#banners .banner {
+padding:20px;
+margin-bottom:10px;
+}
+#banners .banner h2{
+	color: #fff;
+	font-size: 30px;
+	text-transform:uppercase;
+	margin-bottom:10px;
+	padding:0px;
+	padding-bottom:5px;
+	border-bottom:solid 1px #ffffff;
+		text-align:center;
+	z-index: 10;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	font-family: 'Economica', Arial, sans-serif;
+	
+}
+
+
+#banners .banner p{
+	color: #916c05;
+	margin:0px;
+	margin-bottom:10px;
+	font-size: 14px;
+	line-height: 16px;
+	overflow: hidden;
+	text-align:center;
+	font-weight: 400;
+	
+}
+
+#banners .banner a {
+display:block;
+	border-radius: 30px;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border: 8px solid rgb(255,255,255);
+	border: 8px solid rgba(255,255,255,0.8);
+	padding: 2px 20px 0px;
+	font-size: 1.5em;
+	line-height: 40px;
+	font-family: 'Economica', Arial, sans-serif;
+		font-weight: 700;
+		
+	text-transform:uppercase;
+	text-align: center;
+	background: rgba(255,255,255,0.2);
+}
+
+#banners .banner a:hover {
+border: 8px solid rgba(255,255,255,1);
+}
+
+
+
+#banners .green h2{
+font-family: 'Lobster', Arial, sans-serif;
+text-transform:none;
+background: rgba(0,0,0,0.3);
+font-size:25px;
+margin:0px;
+padding:5px;
+text-shadow: none;
+font-weight:normal;
+}
+
+#banners .green p {
+color: #ffffff;
+background: rgba(0,0,0,0.3);
+padding:5px;
+margin:0px;
+}
+
+
+#banners .light-tile h2{
+font-family: 'Dancing Script', Arial, sans-serif;
+text-shadow: none;
+text-transform:none;
+color:#658799;
+font-size:28px;
+font-weight:normal;
+
+}
+
+#banners .light-tile a {
+display:block;
+	color: #658799;
+	border: 8px solid rgba(101,135,153,0.3);
+	font-family: 'Josefin Sans', Arial, sans-serif;
+		
+font-size:20px;
+	text-align: center;
+	background: rgba(255,255,255,0.2);
+}
+
+#banners .light-tile p {
+color: #666061;
+font-family: 'Josefin Sans', Arial, sans-serif;
+}
+
+#banners .light-tile a:hover {
+border: 8px solid rgba(101,135,153,1);
+
+}
+
+
+#banners .dark-tile h2{
+font-family: 'Dancing Script', Arial, sans-serif;
+text-shadow: none;
+text-transform:none;
+font-weight:normal;
+font-size:28px;
+
+
+}
+
+#banners .dark-tile a {
+display:block;
+
+	border: 8px solid rgba(227,225,237,0.7);
+	font-family: 'Josefin Sans', Arial, sans-serif;
+		
+font-size:20px;
+	text-align: center;
+	background: rgba(255,255,255,0.2);
+}
+
+#banners .dark-tile p {
+color: #E3E1EF;
+font-family: 'Josefin Sans', Arial, sans-serif;
+}
+
+#banners .dark-tile a:hover {
+border: 8px solid rgba(227,225,237,1);
+
+}
+
+
+#banners .cabin h2{
+font-family: 'Arvo', Arial, sans-serif;
+text-shadow: none;
+letter-spacing:0px;
+
+font-size:18px;
+
+
+}
+
+#banners .cabin a {
+display:block;
+
+	border: 8px solid rgba(227,225,237,0.7);
+	font-family: 'Arvo', Arial, sans-serif;
+		
+font-size:20px;
+	text-align: center;
+	background: rgba(255,255,255,0.2);
+}
+
+#banners .cabin p {
+color: #E3E1EF;
+}
+
+#banners .dark-tile a:hover {
+border: 8px solid rgba(227,225,237,1);
+
+}

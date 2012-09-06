@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Economica'), local('Economica-Regular'), url(http://themes.googleusercontent.com/static/fonts/economica/v1/jObgDQiPUtmACAaaK3pMG7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Economica Bold'), local('Economica-Bold'), url(http://themes.googleusercontent.com/static/fonts/economica/v1/UK4l2VEpwjv3gdcwbwXE9KRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+.cufon {
+font-family: 'Economica',sans-serif;
+}

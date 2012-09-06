@@ -1,0 +1,9 @@
+/* Block categories */
+div#categories_block_left ul.dhtml{ display:none; }
+div#categories_block_left ul.tree li {background:url('../../../img/dotted.gif') bottom scroll repeat-x; border:none; padding:6px 0 6px 0; margin-left:0; margin-right:0; font-weight:bold; font-size:11px; line-height:13px; margin-top:2px;}
+div#categories_block_left ul.tree li ul li{padding-left:10px; margin-top:5px; padding-bottom:0px; height:auto; font-size:11px; font-weight:normal; background:none}
+div#categories_block_left ul.tree li ul li ul li{padding-left:15px; font-size:9px;}
+div#categories_block_left ul.tree a{padding-left:0; color:#BA8391; font-size:11px; font-weight:normal}
+div#categories_block_left ul.tree a:hover{text-decoration:none}
+div#categories_block_left ul.tree a.selected{color:black; font-style:italic}
+div#categories_block_left span.grower{display:block; float:left; background-position: 0px 3px; background-repeat: no-repeat; width:9px; height:15px; margin: 0 0 0 -10px!important; margin: 0 0 0 -6px; padding: 0;}

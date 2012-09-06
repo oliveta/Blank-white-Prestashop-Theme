@@ -1,0 +1,41 @@
+
+div#jquery-cycle { 
+clear:both;
+	position: relative; width: 840px; height: 200px; padding: 14px; margin: 0 auto;background-color:#FAFAFA;
+	
+}
+div#jquery-cycle .list { position: absolute; width: 840px; height: 169px; z-index: 1; overflow: hidden; }
+
+div#jquery-cycle .button {
+	display: block; width: 45px; height: 50px; position: absolute; top: 74px;
+	outline: 0 none;
+}
+
+div#jquery-cycle #jqc-prev { 
+	left: -41px; background: transparent url('../images/cycle/arrow-l.png') left top no-repeat;
+}
+div#jquery-cycle #jqc-next { 
+	right: -41px; background: transparent url('../images/cycle/arrow-r.png') right top no-repeat;
+}
+
+div#jquery-cycle #jqc-prev:hover { background-position: left bottom; }
+div#jquery-cycle #jqc-next:hover { background-position: left bottom;}
+
+div#jquery-cycle .item { width: 840px; height: 169px; margin: 0; background: transparent url('../images/cycle/bg-item.png') left top repeat; }
+div#jquery-cycle .item .image { display: block; float: left; }
+div#jquery-cycle .item img { border: 0 none;-moz-border-radius: 15px;
+border-radius: 15px; }
+div#jquery-cycle .item .meta  { 
+	width: 400px; height: 156px; margin: 4px 10px 0 0; float: right; 
+	
+}
+div#jquery-cycle h3 { 
+	display: block; margin: 0; padding: 0; 
+	font: bold 24px/32px Helvetica, Arial, sans-serif;
+}
+div#jquery-cycle p { 
+	display: block; padding: 0; margin: 0;
+	font: normal 12px/32px Helvetica, Arial, sans-serif;
+	color: #000;
+}
+}

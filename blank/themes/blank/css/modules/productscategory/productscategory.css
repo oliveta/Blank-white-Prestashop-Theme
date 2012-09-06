@@ -1,0 +1,83 @@
+/* category Products block */
+#productscategory {
+	margin: 0 auto 1em auto;
+	background:url(../../../img/sep.gif) top repeat-x;
+	padding-top:1em;
+	height: 145px;
+	width: 100%
+}
+
+#productscategory h6 {
+	margin:0 0 1em 1.3em;
+	font-size:11px;
+	color:black;
+	text-transform:uppercase
+}
+#productscategory h6 b {
+	color:#EF5057;
+}
+#productscategory_noscroll {
+	margin: 0 auto 1em auto;
+	background:url(../../../img/sep.gif) top repeat-x;
+	padding-top:1em;
+	height: 137px;
+	width: 120%
+}
+#productscategory_noscroll h6 {
+	margin:0 0 1em 1em;
+	font-size:11px;
+	color:black;
+	text-transform:uppercase
+}
+
+#productscategory_list {
+	overflow: hidden;
+	float: left;
+	height: 120px;
+	width: 90.5%
+}
+#productscategory_list ul {
+	padding-left: 0;
+	list-style-type: none
+}
+#productscategory_list li {
+	float: left;
+	margin: 0 10px 8px 0;
+	cursor: pointer;
+	text-align: center;
+	width: 80px;
+	border:1px solid black;
+	background:black;
+	overflow: hidden
+}
+
+#productscategory_list h3 {
+	margin:0;
+	padding:0;
+}
+
+#productscategory_list h3 a {
+	text-transform:uppercase;
+	font-size:10px;
+	font-weight:normal;
+}
+
+#productscategory_list p {
+	color:white;
+	font-weight:normal;
+	text-transform:uppercase
+}
+
+#productscategory_scroll_left,
+ #productscategory_scroll_right {
+	background: url('../../../img/thumbs_left.gif') no-repeat center;
+	text-indent: -3000px;
+	display: block;
+	width: 9px;
+	height: 18px;
+	float: left;
+	margin-top: 47px;
+	cursor:pointer
+}
+#productscategory_scroll_left {margin-right:0.6em}
+#productscategory_scroll_right { background-image: url('../../../img/thumbs_right.gif') }

@@ -1,0 +1,9 @@
+/* block myaccount */
+div.myaccount, div.myaccount h4 a {color:#658799}
+div.myaccount ul.bullet { margin-top: 0.6em }
+div.myaccount ul.bullet .icon { display: none }
+div.myaccount p.logout { padding: 0.3em 0 0 0 }
+div.myaccount p.logout, div.myaccount p.logout a { color: #dd2a81 }
+div.myaccount p.logout a { text-decoration:none; font-weight:normal; color:#32ccfe; font-size:11px; background:url(../../../img/icon/logout.gif) no-repeat; padding-left:1.7em}
+div.myaccount p.logout a:hover { text-decoration: none }
+.account_input { margin-left: 0; width: 15em; }

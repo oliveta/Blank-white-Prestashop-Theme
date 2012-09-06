@@ -1,0 +1,48 @@
+/* history.tpl*/
+#block-history { color: #374853 }
+.color-myaccount { color: #dd2a81 }
+#block-history table#order-list { border: none }
+#block-history table#order-list thead th { color:white; text-transform:uppercase; margin-bottom:0.3em}
+#block-history table#order-list tbody { background: #D0D1D5 url('../img/form_bg.jpg') repeat-x top left }
+#block-history table#order-list tbody tr td { background-color: white }
+#block-history table#order-list td.history_link {
+	white-space: nowrap;
+	text-align: left
+}
+#block-history #block-order-detail {
+	border-top: 2px #ef5057 solid;
+	border-bottom: 2px #ef5057 solid;
+	padding:0.5em 0 0.5em; 0
+}
+#block-history #block-order-detail p {
+	padding-left: 0;
+	padding-bottom:0.4em;
+	padding-right: 0
+}
+#order-detail-content {
+	clear: both;
+	margin-top: 1.5em
+}
+#order-detail-content tbody tr { height: 3em }
+#order-detail-content tfoot td { border: none }
+#order-detail-content table td input.order_qte_input { display: none }
+#order-detail-content table td.order_cb input { border: none }
+#order-detail-content table td span.order_qte_span {
+	width: 50%;
+	display: block
+}
+form#if_order_history {clear:both; margin-bottom:1em;}
+form#if_order_history {text-transform:uppercase; color:#999; font-size:10px; margin:1em 0 2em 0}
+#submitReorder  {float:right;background:#ef5057; border:none; padding:4px; font-size:11px; color:white; font-weight:bold; text-transform:uppercase; cursor:pointer}
+#block-history #block-order-detail h4 { font-size:11px; text-transform:uppercase; color:black; padding:0; margin:0}
+#block-history #block-order-detail #sendOrderMessage p { padding: 0 4px 0 1px;}
+#block-history #block-order-detail textarea {
+	margin:0.5em auto 0.5em auto;
+	width:60%
+}
+#ordermsg textarea {
+	margin:0.4em 0 0 0;
+	padding: 5px;
+	width: 98%;
+	font-size:12px
+}

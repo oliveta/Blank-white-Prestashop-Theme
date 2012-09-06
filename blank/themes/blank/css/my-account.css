@@ -1,0 +1,13 @@
+#my-account #center_column ul { margin: 2em 0 }
+#my-account #center_column ol li { 
+	list-style: none; 
+	margin-bottom:0.2em
+}
+#my-account #center_column ol li a {
+	color:#666;
+	text-transform:uppercase
+}
+#my-account #center_column ol li a:hover {
+	color:black;
+	text-decoration:underline
+}

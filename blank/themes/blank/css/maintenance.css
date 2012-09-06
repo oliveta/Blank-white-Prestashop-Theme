@@ -1,0 +1,32 @@
+*, body{margin:0;padding:0}
+body 
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px
+}
+ 
+#maintenance
+{
+	width:450px;
+	margin:35px auto 0 auto;
+	padding:12px 0;
+	background:#fff;
+	text-transform:none;
+	font-weight:normal;
+	letter-spacing:0;
+	color: #C73178;
+}
+
+#message 
+{
+	width:450px;
+	margin-top:10px;
+	padding-top:5px;
+	background:url(../img/sep.gif) top repeat-x;
+	text-align:justify;
+	font:11px;
+	text-transform:none;
+	font-weight:normal;
+	letter-spacing:0;
+	color:#BFBFBF;
+}

@@ -1,0 +1,23 @@
+#contact p {
+margin-bottom:0px;
+}	
+
+#contact {
+font-size:11px;
+width:300px;
+
+position:absolute;
+right:0px;
+top:20px;
+}
+
+#contact .kontakt {
+padding-bottom:5px;
+border-bottom:solid 1px #E3E1EF;
+margin-bottom:5px;
+}
+
+#facebook {
+display:block;
+}
+

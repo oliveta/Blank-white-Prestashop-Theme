@@ -1,0 +1,6 @@
+/*  sitemap.tpl */
+div.sitemap_block{padding:0; float:left; width:30%}
+div.sitemap_block ul{ text-align:left; list-style:none}
+div.sitemap_block li a { color:#999}
+div.sitemap_block h3, .categTree h3{ color:#333; width:150px; padding-bottom:0.5em; margin:1em 0 0 0;}
+div.sitemap_block a, .categTree a { color:#999}
